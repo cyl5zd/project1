@@ -10,6 +10,7 @@ export default class GoogleAPI extends React.Component{
             places: []
         }
     }
+    //state
 
     componentDidMount(){
         let url = 'https://cors-anywhere.herokuapp.com/https://maps.googleapis.com/maps/api/place/textsearch/json?query=restaurants+in+Charlottesville&key=' + API_KEY
